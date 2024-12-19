@@ -1,0 +1,59 @@
+@font-face{
+	font-family: 'Monster';
+	src:url('../fonts/Monsterdemo-p7YOK.ttf');}
+	
+h1,h2, h3{
+	font-family:Monster;
+	color:rgb(242,241,172);
+	text-align:center;}
+	
+p{
+	font-family:Courier;
+	color:rgb(242,241,172);}
+
+a{
+	text-decoration:none;}
+	
+#headtext, .mheadtext{
+	text-align:center;
+	margin:auto;
+	text-shadow:.5vw .5vw black;}
+
+.buttext{
+	font-family:Monster;
+	white-space:nowrap;
+	color:rgb(242,241,172);
+	position:absolute;
+	overflow:hidden;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);}
+	
+.mheadtext{
+	white-space:nowrap;}
+	
+.targtext, .infotext{
+	font-family:Monster;
+	text-align:center;
+	margin:auto;}
+	
+.targinfo>p{
+	text-align:center;}
+	
+label, legend{
+	font-family:Monster;
+	color:rgb(242,241,172);
+	text-align:center;}
+	
+input[type=submit]{
+	font-family:Monster;}
+	
+
+	
+	
+
+
+	
+
+	

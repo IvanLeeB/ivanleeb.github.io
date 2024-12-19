@@ -1,0 +1,464 @@
+@media only screen and (max-width: 600px) {	
+	div.mynav{
+    	height:15vw;}
+		
+	div.homebutton{
+		height:15vw;}
+		
+	.ammgroup{
+		display:grid;
+		grid-template-columns:50% 50%;
+		grid-template-rows:50% 50%;}
+	
+	#headtext{
+		font-size:7.5vw;
+		word-spacing:2vw;
+		line-height:6vw;}	
+		
+	#comtext, #medtext, #longtext, #othtext{
+		font-size:5vw;}
+	
+	#abttext{
+		font-size:4.8vw;}
+	
+	#feedtext{
+		font-size:3.3vw;}
+		
+	.mheadtext{
+		font-size:6vw;}
+	
+	div.mhead{
+		height:9vw;
+		width:80%;}
+	
+	#mainb{
+		display:flex;
+		flex-direction:column;
+		flex-wrap:wrap;}
+		
+	div.mtext{
+		text-align:center;
+		padding:2%;}
+		
+	div.mimgroup{
+		display:none;}
+		
+	div.cmimg1{
+		flex:1;}
+		
+	.mtext>p{
+		font-size:70%;}
+		
+	.mtext>h2{
+		font-size:100%;}
+		
+	div.abtbox{
+		display:grid;
+		grid-template-columns:60% 40%;}
+		
+	div.abttext{
+		padding:5%;
+		border-width:thick 0 thick thick}
+	
+	div.cabtimg{
+		
+		border-width:thick thick thick 0;}
+		
+	#what{
+		order:1;}
+	
+	#why{
+		order:3;}
+		
+	#who{
+		order:5;}
+	
+	#whatimg{
+		order:2;}
+	
+	#whyimg{
+		order:4;}
+	
+	#whoimg{
+		order:6;}
+		
+	.abttext>p{
+		font-size:70%;}
+		
+	.abttext>h2{
+		font-size:100%;}
+		
+	div.targbox{
+		display:grid;
+		grid-template-columns:50% 50%;
+		grid-template-rows:50% 50%;}
+		
+	
+		
+	input[type=submit]{
+		font-size:150%;
+		width:40%;}
+		
+	input{
+	font-size:100%;}
+	
+	textarea{
+		width:70%;}
+		
+		
+	fieldset{
+		display:block;
+		margin:auto;}
+	
+	
+}
+
+@media only screen and (min-width: 600px) {
+	div.mynav{
+    	height:10vw;}
+		
+	div.homebutton{
+		height:12vw;}
+
+	.ammgroup{
+		display:grid;
+		grid-template-columns:50% 50%;
+		grid-template-rows:50% 50%;}
+		
+
+	
+	#headtext{
+		font-size:7.5vw;
+		word-spacing:1vw;
+		line-height:5vw;
+		}	
+		
+	#comtext, #medtext, #longtext, #othtext{
+		font-size:3.7vw;}
+	
+	#abttext{
+		font-size:4.8vw;}
+	
+	#feedtext{
+		font-size:3.4vw;}
+		
+	.mheadtext{
+		font-size:5.5vw;}
+		
+	div.mhead{
+		height:7vw;
+		width:70%;}
+		
+	div.mtext{
+		text-align:center;
+		padding:2%;}
+		
+	div.mimgroup{
+		display:flex;}
+		
+	div.cmimg1{
+		display:none;}
+		
+	div.cmimg2{
+		flex:1;}
+		
+		
+	.mtext>p{
+		font-size:100%;}
+		
+	.mtext>h2{
+		font-size:200%;}
+	
+	div.abtbox{
+		display:grid;
+		grid-template-columns:50% 50%;}
+		
+	div.abttext{
+		
+		padding:5%;
+		border-width:thick 0 thick thick}
+	
+	div.cabtimg{
+		
+		border-width:thick thick thick 0;}
+		
+	#what{
+		order:1;}
+	
+	#why{
+		order:3;}
+		
+	#who{
+		order:5;}
+	
+	#whatimg{
+		order:2;}
+	
+	#whyimg{
+		order:4;}
+	
+	#whoimg{
+		order:6;}
+		
+	.abttext>p{
+		font-size:70%;}
+		
+	.abttext>h2{
+		font-size:100%;}
+		
+	div.targbox{
+		display:grid;
+		grid-template-columns:50% 50%;
+		grid-template-rows:50% 50%;}
+}
+
+@media only screen and (min-width: 768px) {
+	div.mynav{
+    	height:8vw;}
+		
+	div.homebutton{
+		height:9vw;}
+	
+	.ammgroup{
+		display:grid;
+		grid-template-columns:50% 50%;
+		grid-template-rows:50% 50%;}
+		
+	#headtext{
+		font-size:8vw;
+		word-spacing:2vw;
+		white-space:nowrap;}	
+		
+	#comtext, #medtext, #longtext, #othtext{
+		font-size:3vw;}
+	
+	#abttext{
+		font-size:5vw;}
+	
+	#feedtext{
+		font-size:3.5vw;}
+		
+	.mheadtext{
+		font-size:4.5vw;}
+		
+	div.mhead{
+		height:6vw;
+		width:60%;}
+		
+	#mainb{
+		display:grid;
+		grid-template-columns:50% 50%;
+		grid-template-rows:50% 50%;
+		}
+		
+	div.mtext{
+		max-width:100%;
+		text-align:center;
+		padding:5%;}
+		
+	div.mimgroup{
+		display:none;}
+		
+	div.cmimg2{
+		display:none;}		
+		
+	div.cmimg1{
+		display:block;
+		max-width:100%;}
+		
+	.mtext>p{
+		font-size:80%;}
+		
+	.mtext>h2{
+		font-size:130%;}
+		
+	div.abtbox{
+		display:grid;
+		grid-template-rows:40% 60%;
+		grid-template-columns:auto auto auto;}
+		
+	div.abttext{
+		text-align:center;
+		padding:5%;
+		border-width:0 thick thick thick}
+	
+	div.cabtimg{
+		
+		border-width:thick thick 0 thick;}
+		
+	#what{
+		order:4;}
+	
+	#why{
+		order:5;}
+		
+	#who{
+		order:6;}
+	
+	#whatimg{
+		order:1;}
+	
+	#whyimg{
+		order:2;}
+	
+	#whoimg{
+		order:3;}
+		
+	.abttext>p{
+		font-size:70%;}
+		
+	.abttext>h2{
+		font-size:140%;}
+		
+	div.infobox{
+		display:flex;}
+		
+	div.targinfo{
+		flex:1;}
+		
+	div.targinfo>p{
+		font-size:140%;}
+		
+	.targtext, .infotext{
+		font-size:180%;}
+		
+}
+
+@media only screen and (min-width: 992px) {
+	div.mynav{
+    	height:5vw;}
+		
+	div.homebutton{
+		height:7vw;}
+		
+	.ammgroup{
+		display:flex;}
+		
+	img.logo, img.logo2{
+		width:30%;}
+	
+	#headtext{
+		font-size:6vw;
+		word-spacing:2vw;
+		white-space:nowrap;}	
+		
+	#comtext, #medtext, #longtext, #othtext{
+		font-size:4vw;}
+	
+	#abttext{
+		font-size:4vw;}
+	
+	#feedtext{
+		font-size:3vw;}
+		
+	.mheadtext{
+		font-size:3vw;}
+		
+	div.mhead{
+		height:4vw;
+		width:40%;}
+	
+	.mtext>p{
+		font-size:90%;}
+		
+	.mtext>h2{
+		font-size:180%;}
+	
+	div.abtbox{
+		display:grid;
+		grid-template-rows:35% 65%;
+		grid-template-columns:33.333% 33.333% 33.333%;}
+		
+	#what{
+		order:4;}
+	
+	#why{
+		order:5;}
+		
+	#who{
+		order:6;}
+	
+	#whatimg{
+		order:1;}
+	
+	#whyimg{
+		order:2;}
+	
+	#whoimg{
+		order:3;}
+		
+	.abttext>p{
+		font-size:90%;}
+		
+	.abttext>h2{
+		font-size:140%;}
+		
+	div.targbox{
+		display:flex;}
+		
+	div.targinfo>p{
+		font-size:140%;}
+		
+	.targtext, .infotext{
+		font-size:180%;}
+}
+
+@media only screen and (min-width: 1200px) {
+	div.mynav{
+    	height:4vw;}
+		
+	div.homebutton{
+		height:6vw;}
+	
+	.ammgroup{
+		display:flex;}
+
+	#headtext{
+		font-size:5.3vw;
+		word-spacing:3vw;
+		white-space:nowrap;}	
+		
+	#comtext, #medtext, #longtext, #othtext{
+		font-size:3vw;}
+	
+	#abttext{
+		font-size:3vw;}
+	
+	#feedtext{
+		font-size:3vw;}
+		
+	.mtext>p{
+		font-size:120%;}
+		
+	.mtext>h2{
+		font-size:220%;}
+		
+	div.abtbox{
+		display:grid;
+		grid-template-rows:50% 50%;
+		grid-template-columns:33.333% 33.333% 33.333%;}
+		
+	#what{
+		order:4;}
+	
+	#why{
+		order:5;}
+		
+	#who{
+		order:6;}
+	
+	#whatimg{
+		order:1;}
+	
+	#whyimg{
+		order:2;}
+	
+	#whoimg{
+		order:3;}
+		
+	.abttext>p{
+		font-size:80%;}
+		
+	.abttext>h2{
+		font-size:180%;}
+}

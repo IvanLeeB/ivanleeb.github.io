@@ -1,0 +1,40 @@
+body{
+	background-image:url("../media/images/backgroundimg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center center;}
+
+.logo2, #mqmark2, #mammoimg2, #mmsg2{
+	transform:scaleX(-1);}
+	
+img.logo, img.logo2{
+	object-fit:contain;}
+	
+.qmark, .msg, .ammoimg, .target, .graph, .mimg{
+	display:block;
+	max-height:100%;
+	max-width:100%;
+	margin:auto;}
+		
+.mqmark{
+	max-height:100%;
+	margin:auto;}
+
+.mammoimg{
+	max-height:45%;
+	margin:auto;}
+
+.mmsg{
+	max-height:100%;
+	margin:auto;}
+
+.abtimg{
+	display:block;
+	max-height:100%;
+	width:100%;
+	margin:auto;}
+	
+
+
+

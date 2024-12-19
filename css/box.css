@@ -1,0 +1,134 @@
+div.bodyshade{
+	background-color:rgb(28,25,19);
+	margin:auto auto;
+	width:90vw;}
+	
+div.mynav{
+	margin:auto auto;
+	background-color:rgb(28,25,19);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	display:flex;
+	border-width:0 thick thick thick;}
+	
+div.ammobutton, div.infobutton{
+	flex:1;
+	position:relative;
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:medium;}
+	
+div.homebutton{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	display:flex;
+	border-width:thick;}
+	
+div.ammobutton{
+	align-content:center;}
+	
+div.ammgroup{
+	flex-basis:70%;}
+	
+div.mbody{
+	max-width:90%;
+	padding:0 5% 5%;
+	margin:auto auto;}
+
+div.mhead{
+	width:75%;
+	height:9vw;
+	margin:auto;
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	display:flex;
+	border-width:0 thick thick thick;}
+	
+div.mtext{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+div.abttext{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+div.cmimg1, div.cmimg2{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+div.cabtimg{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+
+div.cabtimg{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+div.targimg{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+div.targinfo{
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+div.feedform{
+	max-width:100%;
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;}
+	
+fieldset{
+	max-width:50%;
+	background-color:rgb(28,25,19);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:thick;
+	margin:auto;}
+	
+.fbox1, .fbox2{
+	max-width:70%;
+	display:flex;}
+	
+.fbox1>input{
+	flex:1;}
+	
+textarea{
+	display:block;
+	margin:auto;}
+	
+input[type=submit]{
+	display:block;
+	position:relative;
+	color:rgb(242,241,172);
+	background-color:rgb(64,55,38);
+	border-style:ridge;
+	border-color:rgb(242,241,172);
+	border-width:medium;
+	margin:auto;}
+	
+input[type=submit]:hover{
+	position:relative;
+	background-color:rgb(28,25,19);}
+
+	
+
+	
